@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TourGuide.com – Local tours in Japan</title>
+  <meta name="description" content="Meet local guides in Japan. Discover beautiful places and delicious food, and book your tour online.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#/" class="logo" aria-label="TourGuide.com home">Tour<span>Guide</span>.com</a>
+    <nav aria-label="Main">
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#/tours" data-nav="tours">Find a Tour</a>
+      <a href="#/bookings" data-nav="bookings">My Bookings <span id="bookingCount" class="badge" hidden>0</span></a>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <p><strong>TourGuide.com</strong> — Local tour guides for travelers in Japan · ローカルツアーガイド</p>
+    <p class="muted">Demo website. Bookings are saved only in your browser.</p>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
